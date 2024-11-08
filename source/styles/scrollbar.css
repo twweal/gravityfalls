@@ -1,0 +1,18 @@
+/* Стилізація скролбара */
+::-webkit-scrollbar {
+    width: 12px; /* Ширина скролбара */
+}
+
+::-webkit-scrollbar-track {
+    background-color: #1a1a1a; /* Колір фону треку скролбара */
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #444; /* Колір "повзунка" */
+    border-radius: 10px; /* Округлені краї повзунка */
+    border: 2px solid #1a1a1a; /* Зробимо рамку для ефекту внутрішньої тіні */
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: #666; /* Зміна кольору при наведенні */
+}

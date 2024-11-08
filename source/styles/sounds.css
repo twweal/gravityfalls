@@ -1,0 +1,39 @@
+.sounds {
+    display: flex;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 100%;
+    flex-direction: column;  
+    align-items: center;
+}
+.sounds>h1{
+    display: flex;
+    justify-content: center;
+}
+.audios {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    margin-top: 30px;
+    width: 60%;
+}
+.audios audio {
+    width: 100%;
+    border-radius: 0px;
+}
+.first_audio,
+.second_audio,
+.third_audio {
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+
+    border: 2px solid;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    padding-inline: 10px;
+    border-radius: 5px;
+}

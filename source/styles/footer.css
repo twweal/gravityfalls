@@ -1,0 +1,14 @@
+.copy-line{
+    display: flex;
+    justify-content: center;
+    margin-block: 20px;
+}
+
+.cr {
+    width: 90%;
+}
+footer {
+    display: flex;
+    justify-self: center;
+    margin-bottom: 20px;
+}

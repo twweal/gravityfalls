@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Agdasima:wght@400;700&family=Bebas+Neue&family=Creepster&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(16, 16, 16);
+    color: whitesmoke;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}   
+body {
+    background: rgb(18,18,18);
+    background: linear-gradient(180deg, rgba(18,18,18,1) 0%, rgba(51,29,11,1) 21%, rgba(117,1,8,1) 49%, rgba(129,116,2,1) 81%, rgba(18,18,18,1) 100%); 
+}
+header {
+    margin-block: 15px;
+    margin-inline: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+.panel,
+.language {
+    display: flex;
+}
+.language{
+    display: flex;
+    align-items: center;
+}
+.panel>a {
+    text-decoration: none;
+    color: whitesmoke;
+    padding: 10px;
+    border-bottom: 5px solid rgba(255, 166, 0, 0);
+    border-radius: 2px;
+}
+.panel>a:hover {
+    border-bottom: 5px solid orange;
+    border-radius: 2px;
+}
+.burger {
+    display: none;
+}
+#lang {
+    width: 100%;
+    background-color: transparent;
+    border: none;
+    color: whitesmoke;
+    font-size: 15px;
+    cursor: pointer;
+    appearance: none;
+    width: auto;
+}
+#lang>option{
+    background-color:rgb(15, 15, 15);
+    color: white;
+    border: none;
+}
+
+.sounds{
+    margin-top: 10px;
+}
+
+
+
+@media (max-width: 768px) {
+    .burger {
+        display: block;
+        height: 50px;
+        width: 50px;
+        font-size: 28px;
+        padding-bottom: 3px;
+        color: whitesmoke;
+        background-color: rgba(165, 42, 42, 0);
+        border: none;
+        cursor: pointer;
+    }
+    .panel {
+        display: none;
+    }
+    .drop:hover .panel {
+        background-color: rgb(52, 52, 52);
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+    }
+}

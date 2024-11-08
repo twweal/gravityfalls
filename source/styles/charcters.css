@@ -1,0 +1,60 @@
+.DIPPER,
+.MABEL,
+.WENDY,
+.SOOS,
+.BILL,
+.WADDLES {
+    display: flex;
+    border: 1px solid white;
+    padding: 10px;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 5px;
+    justify-content: space-around;
+}
+.CHARACTERS {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px; 
+}
+.CHARACTERS-SET {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(1);;
+    width: 90%;
+}
+.CHARACTERS>div{
+    margin: 1em;
+}
+.CHARACTERS-SET img {
+    display: block;
+    width: 100%;
+}
+
+.name {
+    margin-bottom: 20px;
+}
+.CHARACTERS hr {
+    margin-bottom: 10px;
+}
+
+.DIPPER,
+.MABEL,
+.WENDY,
+.SOOS,
+.BILL,
+.WADDLES {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(2);
+}
+
+.DIPPER>div>img,
+.MABEL img,
+.WENDY img,
+.SOOS img,
+.BILL img,
+.WADDLES img {
+    grid-row: 1/3;
+}
